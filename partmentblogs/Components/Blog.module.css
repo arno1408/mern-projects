@@ -1,0 +1,199 @@
+.blogWrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 30px;
+  width: 750px;
+  margin-top: 100px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .blog {
+    width: 90%;
+  }
+
+  .image {
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+.title {
+  color: rgb(0, 50, 109);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  line-height: 3rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 260px;
+  top: 280px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #040e2e;
+}
+
+.iconColor {
+  color: #040e2e;
+}
+
+.spacer {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1300px) {
+  .icons {
+    position: relative;
+    flex-direction: row;
+    margin-top: 10px;
+    left: auto;
+    top: auto;
+  }
+
+  .spacer {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .author {
+    margin-bottom: 10px;
+  }
+
+  .author + .icons {
+    margin-top: 10px;
+  }
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.authorPhoto {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+}
+
+.authorDetails {
+  margin-left: 10px;
+}
+
+.authorName {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #00326d;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.image {
+  width: 100%;
+  max-width: 760px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.textContainer {
+  width: 100%;
+  max-width: 760px;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.textContainer strong {
+  font-weight: 900;
+}
+
+.textContainer p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.textContainer h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.text {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.authorInfo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 50px;
+}
+
+.bigAuthorPhoto {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.bigAuthorDetails {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.bigAuthorName {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.bigAuthorDesignation {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+
+.relatedArticles {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.relatedTitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2.5rem;
+  color: rgb(0, 50, 109);
+  text-align: center;
+  margin-top: 80px;
+  font-weight: 800;
+}
+
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,262 @@
+.quize-section-0 {
+    /* background-image: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    /* background: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    background: radial-gradient(54.33% 61% at 50.78% 17.44%, #9891AD -40%, #2a3f47 35.18%, #202b35 46.75%, #0e0f17 78.23%)
+
+}
+
+.quize-section-1 {
+    /* background-image: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    /* background: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    background: radial-gradient(54.33% 61% at 50.78% 17.44%, #9891AD -25%, #2a3f47 36.18%, #202b35 54.75%, #0e0f17 89.23%);;
+}
+
+.quize-section-2 {
+    /* background-image: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    /* background: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    background: radial-gradient(54.33% 61% at 50.78% 17.44%, #9891AD -10%, #2a3f47 44.18%, #202b35 70.75%, #0e0f17 108.23%);;
+}
+
+.quize-section-3 {
+    /* background-image: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    /* background: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    background: radial-gradient(54.33% 61% at 50.78% 9.44%, #9891AD 0%, #326072 51.18%, #304150 67.75%, #0e0f17 126.23%);
+    
+}
+
+.quize-section-4 {
+    /* background-image: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    /* background: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    background: radial-gradient(54.33% 61% at 50.78% 9.44%, #9891AD 2%, #326072 61.18%, #304150 87.75%, #0e0f17 136.23%);
+    
+}
+
+.quize-section-5 {
+    /* background-image: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    /* background: radial-gradient(67.33% 85% at 52.78% 12.44%, #9891AD 0%, #538096 22.18%, #3C566E 42.75%, #131529 89.23%); */
+    background: radial-gradient(54.33% 61% at 50.78% 9.44%, #9891AD 4%, #326072 61.18%, #304150 97.75%, #0e0f17 146.23%);
+    
+}
+
+.card-1{
+    background-image: radial-gradient(250% 230% at 149.17% -96%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%);
+}
+.card-2{
+    background-image: radial-gradient(250% 230% at 149.17% -96%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%);
+}
+.card-3{
+    background-image: radial-gradient(250% 230% at 149.17% -96%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%);
+}
+.card-4{
+    background-image: radial-gradient(250% 230% at 149.17% -96%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%);
+}
+.card-5{
+    background-image: radial-gradient(250% 230% at 149.17% -96%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%);
+}
+.card-6{
+    background-image: radial-gradient(250% 230% at 149.17% -96%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%);
+}
+
+.carusal-card {
+    /* transition: transform ease-in 0.5s; */
+    /* transition: ease-out 3s linear !important; */
+    filter: drop-shadow(3px 5px 5px rgba(139, 192, 217, 0.50));
+    height: 100%;
+    transition: transform 0.5s ease;
+
+    /* filter: drop-shadow(0px 0px 18px rgba(139, 192, 217, 0.50)); */
+    /* box-shadow: 0 13px 25px 0 rgba(0, 0, 0, .3), 0 11px 7px 0 rgba(0, 0, 0, .19); */
+    /* background-image: radial-gradient(203.82% 246.31% at 149.17% -96%, rgba(152, 145, 173, 0.50) 0%, rgba(83, 128, 150, 0.50) 53.14%, rgba(19, 21, 41, 0.50) 91.43%); */
+    /* background-image: radial-gradient(203.82% 246.31% at 149.17% -96%, rgb(152 145 173) 0%, rgb(83 128 150) 53.14%, rgb(19 21 41) 91.43%); */
+    /* background-image: radial-gradient(203.82% 246.31% at 149.17% -96%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%); */
+    /* last applyinh */
+    /* background-image: radial-gradient(203.82% 246.31% at 149.17% -96%, rgba(152, 145, 173, 0.50) 0%, rgba(83, 128, 150, 0.50) 53.14%, rgba(19, 21, 41, 0.50) 91.43%); */
+
+    /* current */
+    /* background-image: radial-gradient(203.82% 154.31% at 68.17% -47%, #9891ad54 0%, #538096ad 43.14%, #2d40547a 71.99%, #13152994 91.11%); */
+    background-image: radial-gradient(250% 230% at 149.17% -96%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%);
+    /* filter: drop-shadow(0px 0px 20px rgba(139, 192, 217, 0.50)); */
+}
+
+
+.carusal-card .card {
+    display: none;
+    height: 99.9%;
+}
+
+
+
+/* #s1:checked~.s1 .card-1 {
+    display: block;
+}
+
+#s2:checked~.s2 .card-2 {
+    display: block;
+}
+
+#s3:checked~.s3 .card-3 {
+    display: block;
+}
+
+#s4:checked~.s4 .card-4 {
+    display: block;
+}
+
+#s5:checked~.s5 .card-5 {
+    display: block;
+}
+
+#s6:checked~.s6 .card-6 {
+    display: block;
+} */
+
+#s1:checked~.s1 .card-1, 
+#s2:checked~.s2 .card-2,
+#s3:checked~.s3 .card-3,
+#s4:checked~.s4 .card-4,
+#s5:checked~.s5 .card-5,
+#s6:checked~.s6 .card-6{
+    display: block;
+    border: 2px solid #4196BA;
+    border-radius: 20px;
+}
+
+/* #s1:checked~.s1 .card-1:hover{
+    transform: scale(1.2);
+    transition: ease-in-out;
+    transition-duration: 2s;
+} */
+
+
+#s1:checked~.s1,
+#s2:checked~.s2,
+#s3:checked~.s3,
+#s4:checked~.s4,
+#s5:checked~.s5,
+#s6:checked~.s6 {
+    transform: translate3d(0, -0%, -100px) scale(1) !important;
+    /* transform-origin: center; */
+    /* box-shadow: 0px 20px 80px black;
+    box-shadow: -9px 16px 80px black;
+    border: 2px solid #4196BA;
+    /* height: 100% !important; */
+    filter: none;
+    /* background-image: radial-gradient(203.82% 246.31% at 149.17% -96%, rgb(152 145 173) 0%, rgb(83 128 150) 53.14%, rgb(19 21 41) 91.43%) !important; */
+    /* background-image: radial-gradient(203.82% 154.31% at 68.17% -60%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%); */
+    /* background-image: radial-gradient(203.82% 154.31% at 68.17% -47%, #9891AD 0%, #538096 43.14%, #2D4054 71.99%, #131529 91.11%); */
+    z-index: 7 !important;
+    filter: drop-shadow(0px 20px 80px #000);
+
+}
+
+#s2:checked~.s1,
+#s3:checked~.s2,
+#s4:checked~.s3,
+#s5:checked~.s4,
+#s6:checked~.s5 {
+    transform: translate3d(-14%, 0.3%, -100px) scale(0.94) !important;
+    /* height: 95% !important; */
+    z-index: 5 !important;
+
+}
+
+#s3:checked~.s1,
+#s4:checked~.s2,
+#s5:checked~.s3,
+#s6:checked~.s4 {
+    transform: translate3d(-25%, 0.6%, -100px) scale(0.88) !important;
+    /* height: 88% !important; */
+    z-index: 4 !important;
+
+}
+
+#s4:checked~.s1,
+#s5:checked~.s2,
+#s6:checked~.s3 {
+    transform: translate3d(-35%, 0.9%, -100px) scale(0.82) !important;
+    /* height: 82% !important; */
+    z-index: 3 !important;
+
+}
+
+#s5:checked~.s1,
+#s6:checked~.s2 {
+    transform: translate3d(-43%, 1.25%, -100px) scale(0.75) !important;
+    /* height: 75% !important; */
+    z-index: 2 !important;
+
+}
+
+#s6:checked~.s1 {
+    transform: translate3d(-49%, 1.55%, -100px) scale(0.69) !important;
+    /* height: 69% !important; */
+    z-index: 1 !important;
+
+}
+
+#s2:checked~.s3,
+#s3:checked~.s4,
+#s4:checked~.s5,
+#s5:checked~.s6 {
+    transform: translate3d(14%, 0.3%, -100px) scale(0.94)  !important;
+    /* height: 95% !important; */
+    z-index: 5 !important;
+
+}
+
+
+#s2:checked~.s4,
+#s3:checked~.s5,
+#s4:checked~.s6 {
+    transform: translate3d(24%, 0.6%, -100px) scale(0.88)  !important;
+    /* height: 88% !important; */
+    z-index: 4 !important;
+
+}
+
+
+#s2:checked~.s5,
+#s3:checked~.s6 {
+    transform: translate3d(35%, 0.9%, -100px) scale(0.82)  !important;
+    /* height: 82% !important; */
+    z-index: 3 !important;
+
+}
+
+#s2:checked~.s6 {
+    transform: translate3d(43%, 0.12%, -100px) scale(0.75)  !important;
+    /* height: 75% !important; */
+    z-index: 2 !important;
+
+}
+
+
+.activer{
+   box-shadow: none !important;
+   /* position: absolute; */
+   filter: none;
+   transform: translate3d(0%, -8%, 17px) scale(1);
+}
+
+.nonActive{
+    opacity: 0.4;
+    transform: scale(0.8);
+    filter: none;
+}
+
+.card{
+    transition: transform 3s ease;
+}
+
+ .cards-main-container{
+    transition: transform 0.4s ease;
+    position: relative;
+    /* perspective: 1000px; */
+   /* transform-style: preserve-3d; */
+} 
+
+/* .cards-main-container:hover{
+    transform: rotate(80deg);
+} */
+
+

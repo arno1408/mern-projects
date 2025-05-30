@@ -1,0 +1,57 @@
+#app {
+  margin-top: 40px;
+}
+
+.circle-svg {
+  fill: transparent;
+}
+
+#progressInput {
+  margin: 20px auto;
+  width: 30%;
+}
+
+.circle-background,
+.circle-progress {
+  fill: none;
+}
+
+.circle-background {
+  /* stroke: #ddd; */
+  stroke: #ECECEC;
+  stroke-width: 40px;
+  -webkit-filter: drop-shadow(3px 3px 2px rgb(255, 255, 255));
+  filter: drop-shadow(3px 3px 2px rgb(255, 255, 255));
+}
+
+.progress-bar__background {
+  -webkit-filter: drop-shadow(3px 3px 2px rgb(255, 255, 255));
+  filter: drop-shadow(3px 3px 2px rgb(255, 255, 255));
+
+}
+.cross-btn-shadow{
+  filter: drop-shadow(1px 2px 5px rgba(8, 10, 48, 0.50));
+}
+.circle-progress {
+  stroke: #67eab3;
+  /* stroke-linecap: round;
+    strokeLinejoin: round; */
+}
+
+.circle-progress2 {
+  stroke: #4196ba;
+  /* stroke-linecap: round;
+    strokeLinejoin: round; */
+}
+
+.circle-progress3 {
+  stroke: orange;
+  stroke-linecap: round;
+  strokeLinejoin: round;
+}
+
+.circle-text {
+  /* font-size: 3em;
+    font-weight: bold; */
+  fill: #B5B5B5;
+}

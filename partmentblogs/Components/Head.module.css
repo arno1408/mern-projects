@@ -1,0 +1,42 @@
+.head {
+  height: 413.5px;
+  background-image: url("https://f.hubspotusercontent10.net/hubfs/7528315/raw_assets/public/mV0_hubspot/growth/images/blog-banner.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px;
+}
+
+.head h1 {
+  font-size: 4.2vw;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.head p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .head h1,
+  .head p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .head h1 {
+    font-size: 30px;
+  }
+}

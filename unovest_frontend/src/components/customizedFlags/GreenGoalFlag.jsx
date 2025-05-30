@@ -1,0 +1,37 @@
+import React from 'react'
+
+const GreenGoalFlag = (props) => {
+    const { cx, cy, value, maxvalue,payload } = props;
+  return (
+    <g x={cx - 10} y={cy - 10}>
+
+        <circle cx={props.cx} cy={props.cy} r={7} fill="white" fillOpacity="0.2" />
+        <circle cx={props.cx} cy={props.cy} r={5} fill="#67EAB3" />
+        <circle cx={props.cx} cy={props.cy} r={3} fill="#0F3A4D" />
+  
+    <svg xmlns="http://www.w3.org/2000/svg" width="47" height="46" viewBox="0 0 47 46" fill="none"
+        x={cx - 13}
+        y={cy - 40}
+    >
+        <g filter="url(#filter0_d_1376_3392)">
+            <path d="M23.0759 11.0478C15.456 9.37436 11.9288 10.8017 11.1177 11.7246L12.3691 23.168C13.3888 22.1016 17.9728 19.5627 24.814 21.1377C31.6552 22.7127 35.4513 21.3838 36.4941 20.5224L34.2694 11.0478C33.7132 11.7451 30.6958 12.7213 23.0759 11.0478Z" fill="#67EAB3" />
+            <rect x="0.191095" y="0.158574" width="0.347304" height="24.8665" transform="matrix(0.996679 -0.081429 0.103768 0.994601 10.3401 10.367)" fill="white" stroke="white" strokeWidth="0.347304" />
+        </g>
+        <defs>
+            <filter id="filter0_d_1376_3392" x="0.355957" y="0.274414" width="46.1382" height="45.1538" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                <feOffset />
+                <feGaussianBlur stdDeviation="5" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix type="matrix" values="0 0 0 0 0.405206 0 0 0 0 0.917448 0 0 0 0 0.702306 0 0 0 0.6 0" />
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1376_3392" />
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1376_3392" result="shape" />
+            </filter>
+        </defs>
+    </svg>
+</g>
+  )
+}
+
+export default GreenGoalFlag

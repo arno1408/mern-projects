@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grey-shadow {
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.50) inset;
+}
+
+.card-shadow {
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.lite-shadow{
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(180, 178, 178);
+  border-radius: 5px;
+  background: radial-gradient(1323.55% 390.21% at 116.51% 142.46%, #9891AD 0%, #538096 22.18%, #3C566E 37.68%, #131529 94.3%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #67EAB3;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+  /* border: 3px solid green */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #0F3A4D; */
+  background: #67EAB3;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/*  scrollbar  */
+* {
+  /* scrollbar-width: thin; */
+   /* You can adjust 'thin' to 'auto' or 'none' as well */
+}
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar{
+  width: 8px;
+}
+*::-webkit-scrollbar{
+  width: 8px; 
+}
+::-ms-scrollbar{
+  width: 8px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #67EAB3; 
+  border-radius: 6px; 
+}
+::-webkit-scrollbar-track {
+  background-color: #67EAB3;
+  border-radius: 20px;
+}
+
+/* Edge */
+ 
+::-ms-thumb {
+  background-color: #67EAB3;
+  border-radius: 6px;
+}
+::-ms-track {
+  background-color: #538096;
+  border-radius: 20px;
+}
+
+input[type=range]::-webkit-slider-thumb{
+  background-color: 67EAB3 !important;
+  
+}
+/* scrollbar css firefox */
+*::-webkit-scrollbar-track {
+  /* background-color: red; */
+  width: 5px;
+}
+
+/* Handle style */
+*::-webkit-scrollbar-thumb {
+  background-color: #67EAB3;
+  width: 5px;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #67EAB3;
+}

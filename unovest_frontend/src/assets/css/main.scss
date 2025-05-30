@@ -1,0 +1,470 @@
+.login-sugnup-bg {
+    background: url('../images/login-signup-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+
+    .login-singup-heading {
+        color: #FFFFFF;
+        font: 900 36px/1 Montserrat;
+        text-align: center;
+        letter-spacing: -0.72px;
+    }
+
+    @media (max-width: 576px) {
+        background: url('../images/login-signup-bg-mob.png');
+
+        .login-singup-heading {
+            span {
+                font: 400 24px/1.2 Montserrat;
+                display: block;
+            }
+        }
+    }
+}
+
+.leftborder::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #BCFBE4;
+    border-radius: 15px;
+    left: -10px;
+    top: 0;
+}
+.whatifleftborder::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #B7C3D8;
+    border-radius: 15px;
+    left: -10px;
+    top: 0;
+}
+
+.select-money-goal div {
+    padding: 0;
+}
+
+.select-money-goal .MuiInputBase-root {
+    border-radius: 15px !important;
+    border: 1px solid #B0C3F5;
+    padding-inline-start: 12px;
+}
+
+.select-money-goal input {
+    height: 100%;
+}
+
+.select-money-goal fieldset {
+    border: 0;
+}
+
+.select-money-goal .MuiSvgIcon-root,
+.myaccount-select .MuiSvgIcon-root {
+    display: none;
+
+}
+
+.select-money-goal .MuiSelect-select {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    font: 600 18px/1.2 'Montserrat';
+    color: #B0C3F5;
+}
+
+.select-money-goal .MuiSelect-select::after,
+.myaccount-select .MuiSelect-select::after {
+    content: "";
+    background-image: url('../Icons/down_arrow.svg');
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 8px;
+    width: 13px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myaccount-select .MuiSelect-select {
+    padding: 0 !important;
+    font: 600 18px/1.2 Montserrat;
+    letter-spacing: -0.36px;
+    color: #ECECEC;
+}
+
+.myaccount-select fieldset {
+    border: 0;
+}
+
+.account-tab-container { 
+    .MuiTabs-flexContainer{
+        // gap: 24px;
+        button{
+            border-radius: 15px;
+            color: #B7C3D8;
+            font: 700 24px/1.2 'Montserrat';
+            background: linear-gradient(184deg, rgba(24, 33, 50, 0.20) 2.7%, rgba(24, 34, 51, 0.20) 96.07%); 
+            flex-grow: 1;
+            text-transform: unset;
+        }
+    }
+}
+
+.MuiBox-root{
+    padding: 0 !important;
+}
+.moneytype{
+    background-color: rgba(236, 236, 236, 0.20);
+
+    .Mui-selected{
+        background-color: #ECECEC !important;
+        border-radius: 30px !important;
+        flex-grow: 3;
+    }
+    .Mui-selected:first-child{
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25); 
+    }
+    .Mui-selected:last-child{
+        box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.25);
+        color: #0F3A4D !important;
+    }
+
+    button:not(.Mui-selected){
+        flex-grow: 1;
+        border-radius: 30px !important;
+        border-width: 0 !important;
+        color:#B5B5B5 !important;
+    }
+    button{
+        font: 500 16px/1.32 'Montserrat';
+        
+    }
+}
+.congratulations-bg{
+//  background:  radial-gradient(203.82% 209.31% at -1.83% -96%, #9891AD 0%, #538096 13.34%, #131529 71.53%);
+// background: radial-gradient(162.35% 157.73% at 44.58% -64.92%, #9891AD 0%, #3B6F87 29.79%, #131529 82.4%);
+background: radial-gradient(86.35% 191.73% at 49.58% -66.92%, #a09baf 0%, #2c5a6f 46.79%, #111325 90.4%);
+}
+
+.congratulations-bg1{
+
+background:radial-gradient(rgba(152, 145, 173, 0.2)
+
+rgba(83, 128, 150, 0.7)
+
+rgba(19, 21, 41, 1))
+}
+.dashboard-l1-bg{
+    background: radial-gradient(198.2% 119.83% at 115.58% 8.51%, #9891AD 0%, #538096 22.18%, #3C566E 48.5%, #131529 89.23%);
+}
+
+.welcomeBack{
+  background-color: transparent;
+  width: 492px;
+  margin-top: 50px;
+  margin-left: 28px;
+//   border: none;
+  box-shadow: none;
+  .Toastify__close-button > svg{
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+}
+
+// .level-1-mobile-bg{
+
+    //     background-color: #131529;
+    
+    // }
+    
+    @media (max-width: 768.5px){
+    
+        .dashboard-l1-bg{    
+            background: #131529;    
+        }
+        .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+            padding: 8px 15px !important;
+        }
+    }
+    .login-sugnup-bg {   
+        background: url('../images/login-signup-bg.png');  
+        background-size: cover;
+        min-height: 100vh;
+
+        .login-singup-heading {
+            color: #FFFFFF;   
+            font: 900 36px/1 Montserrat;   
+            text-align: center;   
+            letter-spacing: -0.72px;   
+        }
+    
+       @media (max-width: 576px) {
+            background: url('../images/login-signup-bg-mob.png');
+            .login-singup-heading {
+                span {
+                    font: 400 24px/1.2 Montserrat;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .leftborder::before {
+        content: ''; 
+        position: absolute;
+        width: 5px;
+        height: 100%;   
+        background-color: #BCFBE4;   
+        border-radius: 15px;   
+        left: -10px;  
+        top: 0;
+    }
+    
+    .select-money-goal div {
+        padding: 0;
+    }
+
+    .select-money-goal .MuiInputBase-root {
+        border-radius: 15px !important;
+        border: 1px solid #B0C3F5;
+        padding-inline-start: 12px;
+    }
+    
+    .select-money-goal input {
+        height: 100%;
+    }
+    
+    .select-money-goal fieldset {
+        border: 0;
+    }
+    .select-money-goal .MuiSvgIcon-root,
+    .myaccount-select .MuiSvgIcon-root {
+        display: none;
+    }
+     
+    .select-money-goal .MuiSelect-select {
+        position: relative; 
+        display: flex;
+        align-items: center;
+        gap: 16px;   
+        padding: 12px;
+        font: 600 18px/1.2 'Montserrat';
+        color: #B0C3F5;
+    }
+
+    .select-money-goal .MuiSelect-select::after,
+    .myaccount-select .MuiSelect-select::after {
+        content: "";
+        background-image: url('../Icons/down_arrow.svg');    
+        position: absolute;
+   
+        right: 12px;    
+        top: 50%;
+   
+        transform: translateY(-50%);    
+        height: 8px;
+   
+        width: 13px;
+   
+        background-size: cover;
+   
+        background-repeat: no-repeat;
+   
+    }
+    
+     
+    
+    .myaccount-select .MuiSelect-select {
+    
+        padding: 0 !important;
+    
+        font: 600 18px/1.2 Montserrat;
+    
+        letter-spacing: -0.36px;
+    
+        color: #ECECEC;
+    
+    }
+    
+     
+    
+    .myaccount-select fieldset {
+    
+        border: 0;
+    
+    }
+    
+     
+    
+    .account-tab-container {   
+        .MuiTabs-flexContainer{   
+            gap: 24px;  
+            button{
+                border-radius: 15px;   
+                color: #B7C3D8;   
+                font: 700 24px/1.2 'Montserrat';  
+                background: linear-gradient(184deg, rgba(24, 33, 50, 0.20) 2.7%, rgba(24, 34, 51, 0.20) 96.07%);  
+                flex-grow: 1;  
+                text-transform: unset; 
+            }  
+        }
+  
+    }
+    
+     @media (max-width:640px){
+        .account-tab-container {   
+            .MuiTabs-flexContainer{   
+                gap: 4px;  
+                button{
+                    border-radius: 10px;   
+                    color: #B7C3D8;   
+                    font: 700 16px/1.2 'Montserrat';  
+                    background: linear-gradient(184deg, rgba(24, 33, 50, 0.20) 2.7%, rgba(24, 34, 51, 0.20) 96.07%);  
+                    flex-grow: 1;  
+                    text-transform: unset; 
+                }  
+            }
+      
+        }
+     }
+    
+    .MuiBox-root{
+    
+        padding: 0 !important;
+    
+    }
+    
+    .moneytype{
+    
+        background-color: rgba(236, 236, 236, 0.20);
+    
+     
+    
+        .Mui-selected{
+    
+            background-color: #ECECEC !important;
+    
+            border-radius: 30px !important;
+    
+            flex-grow: 3;
+    
+        }
+    
+        .Mui-selected:first-child{
+    
+            box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    
+        }
+    
+        .Mui-selected:last-child{
+    
+            box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.25);
+    
+            color: #0F3A4D !important;
+    
+        }
+    
+     
+    
+        button:not(.Mui-selected){
+    
+            flex-grow: 1;
+    
+            border-radius: 30px !important;
+    
+            border-width: 0 !important;
+    
+            color:#B5B5B5 !important;
+    
+        }
+    
+        button{
+    
+            font: 500 16px/1.32 'Montserrat';
+    
+           
+    
+        }
+    
+    }
+    
+    .congratulations-bg{
+    
+        //  background:  radial-gradient(203.82% 209.31% at -1.83% -96%, #9891AD 0%, #538096 13.34%, #131529 71.53%);
+    
+        // background: radial-gradient(162.35% 157.73% at 44.58% -64.92%, #9891AD 0%, #3B6F87 29.79%, #131529 82.4%);
+    
+        background: radial-gradient(86.35% 191.73% at 49.58% -66.92%, #a09baf 0%, #2c5a6f 46.79%, #111325 90.4%);
+    
+    }
+    
+    .congratulations-bg1{
+    
+        background:radial-gradient(rgba(152, 145, 173, 0.2)
+    
+        rgba(83, 128, 150, 0.7)
+    
+        rgba(19, 21, 41, 1))
+    
+    }
+    
+    .dashboard-l1-bg{
+    
+        background: radial-gradient(198.2% 119.83% at 115.58% 8.51%, #9891AD 0%, #538096 22.18%, #3C566E 48.5%, #131529 89.23%);
+    
+    }
+    
+     
+    
+    .welcomeBack{
+    
+      background-color: transparent;
+    
+      width: 492px;
+    
+      margin-top: 50px;
+    
+      margin-left: 28px;
+    
+    //   border: none;
+    
+      box-shadow: none;
+    
+      .Toastify__close-button > svg{
+    
+        display: none;
+    
+        height: 0px;
+    
+        width: 0px;
+    
+      }
+    
+    }
+    
+     
+    
+    // .level-1-mobile-bg{
+    
+    //     background-color: #131529;
+    
+    // }
+    
+    @media (max-width: 768.5px){
+    
+        .dashboard-l1-bg{
+    
+            background: #131529;
+    
+        }
+    
+    }
+    
+     

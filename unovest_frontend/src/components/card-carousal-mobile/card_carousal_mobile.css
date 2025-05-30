@@ -1,0 +1,118 @@
+.mobile-carusal-card {
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.50);
+    transition: all ease-in-out 0.35s;
+    background: radial-gradient(162.35% 157.73% at 44.58% -64.92%, #9891AD 0%, #3B6F87 29.79%, #131529 82.4%);
+    filter: drop-shadow(-4px -4px 10px rgba(8, 10, 48, 0.80));
+}
+
+.mob-swiper .card {
+    height: 100%;
+    display: none;
+}
+
+#mobileslide1:checked~.mobileslide1 .card-1 {
+    display: block;
+    background: transparent;
+}
+#mobileslide2:checked~.mobileslide2 .card-2 {
+    display: block;
+    background: transparent;
+}
+#mobileslide3:checked~.mobileslide3 .card-3 {
+    display: block;
+    background: transparent;
+}
+#mobileslide4:checked~.mobileslide4 .card-4 {
+    display: block;
+    background: transparent;
+}
+#mobileslide5:checked~.mobileslide5 .card-5 {
+    display: block;
+    background: transparent;
+}
+#mobileslide6:checked~.mobileslide6 .card-6 {
+    display: block;
+    background: transparent;
+}
+
+/* for top */
+#mobileslide1:checked~.mobileslide1,
+#mobileslide2:checked~.mobileslide2,
+#mobileslide3:checked~.mobileslide3,
+#mobileslide4:checked~.mobileslide4,
+#mobileslide5:checked~.mobileslide5,
+#mobileslide6:checked~.mobileslide6 {
+    transform: translate3d(0, 0, -100px) !important;
+    width: 100% !important;
+    opacity: 1 !important;
+}
+
+#mobileslide2:checked~.mobileslide3,
+#mobileslide3:checked~.mobileslide4,
+#mobileslide4:checked~.mobileslide5,
+#mobileslide5:checked~.mobileslide6 {
+    transform: translate3d(0%, -2%, 100px) !important;
+    width: 93% !important;
+}
+
+#mobileslide2:checked~.mobileslide4,
+#mobileslide3:checked~.mobileslide5,
+#mobileslide4:checked~.mobileslide6 {
+    transform: translate3d(0%, -3.5%, 100px) !important;
+    width: 87% !important;
+}
+
+#mobileslide2:checked~.mobileslide5,
+#mobileslide3:checked~.mobileslide6 {
+    transform: translate3d(0%, -5%, 100px) !important;
+    width: 80% !important;
+}
+
+#mobileslide2:checked~.mobileslide6 {
+    transform: translate3d(0%, -6.4%, 100px) !important;
+    width: 75% !important;
+}
+
+
+/* for bottom */
+#mobileslide2:checked~.mobileslide1,
+#mobileslide3:checked~.mobileslide1,
+#mobileslide4:checked~.mobileslide1,
+#mobileslide5:checked~.mobileslide1,
+#mobileslide6:checked~.mobileslide1 {
+    transform: translate3d(0%, 90%, -100px) !important;
+    z-index: 6 !important;
+    width: 100% !important;
+
+}
+
+#mobileslide3:checked~.mobileslide2,
+#mobileslide4:checked~.mobileslide2,
+#mobileslide5:checked~.mobileslide2,
+#mobileslide6:checked~.mobileslide2 {
+    transform: translate3d(0%, 91.5%, -100px) !important;
+    z-index: 6 !important;
+    width: 100% !important;
+}
+
+#mobileslide4:checked~.mobileslide3,
+#mobileslide5:checked~.mobileslide3,
+#mobileslide6:checked~.mobileslide3 {
+    transform: translate3d(0%, 93%, -100px) !important;
+    z-index: 6 !important;
+    width: 100% !important;
+}
+
+#mobileslide5:checked~.mobileslide4,
+#mobileslide6:checked~.mobileslide4 {
+    transform: translate3d(0%, 94.5%, -100px) !important;
+    z-index: 6 !important;
+    width: 100% !important;
+}
+
+
+#mobileslide6:checked~.mobileslide5 {
+    transform: translate3d(0%, 96%, -100px) !important;
+    z-index: 6 !important;
+    width: 100% !important;
+}

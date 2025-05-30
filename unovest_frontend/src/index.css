@@ -1,0 +1,1012 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,600&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-border-none {
+  @apply focus:ring-0 focus:outline-none focus:border-none;
+}
+
+.card-label {
+  @apply text-grey-3 lg:text-grey-2 text-sm lg:text-[10px] 2xl:text-[15px] font-normal lg:font-semibold md:font-medium tracking-[-0.32px] leading-[14px] 2xl:leading-[21px] font-Montserrat;
+}
+.first-card-label {
+  @apply text-grey-3 lg:text-grey-2 2xl:text-base lg:text-xs text-sm font-normal lg:font-medium font-Montserrat;
+}
+.fourth-card-label {
+  @apply text-grey-4 lg:text-grey-2 text-sm md:text-lg lg:text-base font-semibold md:font-medium tracking-[-0.32px] leading-[17px] lg:leading-[21px] font-Montserrat;
+}
+.card-body {
+  @apply 2xl:h-[calc(100%-135px)] xl:h-[calc(100%-115px)] lg:h-[calc(100%-120px)] h-[calc(100%-104px)] mx-auto;
+}
+.fifth-card-label {
+  @apply text-accent-bright-green opacity-60 lg:opacity-100 lg:text-grey-2 text-base font-extrabold  md:font-medium tracking-[-0.32px] leading-[17px] lg:leading-[21px] font-Montserrat;
+}
+
+/* sign in and login page */
+.login-signup-desc {
+  @apply italic text-white 2xl:text-sm lg:text-xs font-Montserrat leading-[18.48px] text-center md:text-left my-0 mx-auto md:mx-0;
+}
+.login-signup-label {
+  @apply block text-slate-300 md:text-gray-200 text-sm 2xl:text-lg xl:text-base lg:text-sm font-semibold font-Montserrat leading-snug tracking-normal;
+}
+.login-signup-input {
+  @apply px-4 py-2 2xl:py-[9px]  xl:py-2 lg:py-1 w-full 2xl:w-[415px] xl:w-[380px] lg:w-[300px] bg-[#ECECEC] bg-opacity-[75%] md:bg-zinc-100 md:bg-opacity-100 text-cyan-950   2xl:rounded-[15px] lg:rounded-xl shadow-inner placeholder:text-cyan-950 md:placeholder:text-zinc-400  text-sm 2xl:text-xl lg:text-base xl:text-lg leading-normal focus:outline-none focus:border-none focus:shadow-none;
+}
+
+.theme-button {
+  @apply 2xl:px-8 2xl:py-3 lg:px-4 lg:py-2 bg-emerald-300 rounded-[30px]  text-center text-cyan-950 2xl:text-2xl lg:text-lg  md:text-2xl font-extrabold font-Montserrat capitalize shadow-[0px_0px_10px_0px_rgba(103,234,179,0.60)];
+}
+
+.theme-border-btn {
+  @apply border border-emerald-300 rounded-[30px] 2xl:px-8 2xl:py-3 lg:px-4 lg:py-2 text-center text-emerald-300 2xl:text-2xl lg:text-lg font-bold font-Montserrat leading-[28.80px];
+}
+
+.login-signup-mob-heading {
+  @apply sm:hidden text-emerald-300 2xl:text-2xl lg:text-lg font-black font-Montserrat mb-3;
+}
+
+.header_menu_item {
+  @apply flex items-center gap-2.5 text-white text-xl font-medium font-Montserrat leading-relaxed;
+}
+
+.my-account-menu {
+  @apply text-zinc-100 text-lg font-semibold font-Montserrat leading-snug px-2.5;
+}
+
+.my-active-account-menu {
+  @apply bg-slate-400 rounded-lg text-cyan-950 font-extrabold py-2.5;
+}
+
+.active-mode {
+  @apply px-[5px] py-2.5 bg-gray-700 rounded-[30px] shadow border border-slate-400 text-slate-300 text-sm;
+}
+
+.my-account-title {
+  @apply text-gray-200 2xl:text-xl lg:text-lg md:text-lg text-sm font-medium font-["Montserrat"] leading-relaxed;
+}
+
+.my-account-desc {
+  @apply text-gray-200 lg:text-base md:text-base max-md:text-xs font-medium font-['Montserrat'] leading-[21.12px];
+}
+
+.recharts-surface {
+  overflow: visible;
+}
+.flip-card {
+  /* background-color: transparent; */
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transform-style: preserve-3d;
+}
+
+.flip-cardActive {
+  transform: rotateY(360deg);
+}
+
+.input-with-inner-shadow {
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  color: #b5b5b5;
+}
+.subtitlePostion {
+  bottom: 0;
+  left: 30%;
+}
+.subtitlePostion6 {
+  bottom: 0;
+  right: 27%;
+}
+.selectCard-2 {
+  background: transparent;
+}
+.goal-List {
+  left: 26%;
+  bottom: 18%;
+}
+.green-Plus {
+  left: 27%;
+  bottom: 14%;
+}
+@media screen and (max-width: 359px) {
+  .subtitlePostion6 {
+    bottom: -2px;
+    right: 15%;
+  }
+  .green-Plus {
+    left: 24%;
+    bottom: 16%;
+  }
+  .goal-List {
+    left: 24%;
+    bottom: 19%;
+  }
+  .small-tab-p {
+    @apply px-[2.75rem] !important;
+  }
+  .small-level1-p {
+    @apply text-sm !important;
+  }
+  .small-input-w {
+    @apply max-w-[125px] !important;
+  }
+  .small-input-total-w {
+    @apply max-w-[135px] !important;
+  }
+  .small-text {
+    @apply text-lg !important;
+  }
+  .small-text-6 {
+    @apply text-[13px] leading-5 !important;
+  }
+  .margin-6 {
+    @apply ml-4 !important;
+  }
+  .text-6 {
+    @apply text-base !important;
+  }
+  .small-max-w {
+    @apply max-w-[77vw] !important;
+  }
+  .small-padding {
+    @apply px-4 !important;
+  }
+  .small-w-4 {
+    @apply w-[115px] !important;
+  }
+  .small-min-w-4 {
+    @apply min-w-[180px] !important;
+  }
+  .small-heading {
+    @apply 2xl:text-[17.5px] lg:text-sm leading-5 !important;
+  }
+  .small-media-div {
+    @apply text-xl min-w-[2.3rem] !important;
+  }
+  .small-feild-text {
+    @apply text-[10px] !important;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 375px) {
+  .subtitlePostion {
+    bottom: 0;
+    left: 32%;
+  }
+  .goal-List {
+    left: 23%;
+    bottom: 20%;
+  }
+  .green-Plus {
+    left: 23%;
+    bottom: 16%;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 420px) {
+  .subtitlePostion6 {
+    bottom: 0px;
+    left: 41%;
+  }
+  .subtitlePostion {
+    bottom: -20px;
+    left: 0;
+  }
+  .green-Plus {
+    left: 21%;
+    bottom: 14.5%;
+  }
+  .goal-List {
+    left: 21%;
+    bottom: 18%;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 400px) {
+  .goal-List {
+    left: 23%;
+    bottom: 19%;
+  }
+  .green-Plus {
+    left: 22%;
+    bottom: 15.5%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .subtitlePostion6 {
+    bottom: -20px;
+    left: 0%;
+  }
+  .subtitlePostion {
+    bottom: -20px;
+    left: 0;
+  }
+  .green-Plus {
+    left: 21%;
+    bottom: 14%;
+  }
+  .goal-List {
+    left: 21%;
+    bottom: 17%;
+  }
+}
+@media (max-width: 640px) {
+  .icon {
+    width: 1rem;
+    height: 1rem;
+    stroke-width: 1.5;
+    color: rgb(8, 51, 68, 1);
+  }
+  .image-gradient {
+    /* background-image: radial-gradient(ellipse at top right,rgb(92, 108, 139) 13%, rgb(2, 15, 46) 50%,rgb(20, 20, 20) 80%); */
+    background-image: radial-gradient(
+      ellipse at top right,
+      rgb(87 109 152) 0%,
+      rgb(0 4 10) 55%,
+      rgb(15 15 15) 100%
+    ); /*new shade*/
+  }
+  .header_menu_item {
+    @apply flex items-center gap-1.5 text-white text-base font-medium font-Montserrat leading-relaxed;
+  }
+  .my-account-title {
+    @apply text-sm;
+  }
+  .my-account-desc {
+    @apply text-gray-200 text-sm font-medium font-Montserrat leading-[21.12px];
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .subtitlePostion6 {
+    bottom: 0px;
+    left: 48%;
+  }
+}
+@media (min-width: 992px) {
+  .selectCard-2 {
+    background: linear-gradient(
+      184deg,
+      rgba(24, 33, 50, 0.4) 2.7%,
+      rgba(24, 34, 51, 0.4) 96.07%
+    );
+  }
+  /* .flag-circle-gradient{
+    background-image: radial-gradient(circle, #538096 0%, #538096 50%, #9891AD 50%, #9891AD 100%);
+    background-image: radial-gradient(circle, #538096 0%, #538096 25%, #9891AD 25%, #9891AD 50%, #131529 50%, #131529 75%, #538096 75%, #538096 100%);
+  } */
+}
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+ 
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+ 
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+ 
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+ 
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+ 
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+ 
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+ 
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+/* ----- Level 1 -----   */
+.level-1 {
+  @apply md:px-0  lg:max-w-[55vw]  2xl:max-w-[65vw] mx-auto flex gap-0 lg:gap-1 flex-col;
+}
+.tabs-p {
+  @apply text-light-blue-1 lg:text-grey-2  sm:text-sm md:text-[15px] lg:text-sm xl:text-[17px] 2xl:text-lg font-normal lg:font-semibold italic lg:not-italic px-[3.25rem] lg:px-0 leading-snug tracking-[-0.36px];
+}
+.input-feild {
+  @apply 2xl:h-10 2xl:w-12 lg:w-8  bg-grey-3 bg-opacity-10 lg:bg-grey-1 lg:bg-opacity-100 focus:bg-white focus:text-dark-blue text-grey-3 sm:text-sm xl:text-lg lg:text-base 2xl:text-xl font-normal font-Work_Sans text-center  rounded-[15px] 2xl:rounded-xl lg:rounded-[7px] input-border-none;
+}
+.select-div {
+  @apply px-1.5 lg:px-2 bg-grey-2 bg-opacity-20 rounded-2xl;
+}
+.dashboard-select {
+  @apply xl:py-1.5 lg:py-1 xl:p-2 rounded-[15px] bg-transparent text-grey-2 text-base lg:text-sm 2xl:text-lg  font-normal lg:font-semibold input-border-none;
+}
+.showInstruction-duration {
+  @apply duration-700 ease-in-out;
+}
+.showInstruction-div {
+  @apply bg-accent-green rounded-3xl lg:rounded-[36px]  max-w-[38.625rem] mx-8 md:m-auto p-4 md:p-12 lg:p-16;
+}
+.showInstruction-h2 {
+  @apply font-Montserrat font-extrabold text-xl md:text-2xl lg:text-3xl text-gray-800;
+}
+.showInstruction-p1 {
+  @apply font-Montserrat font-medium text-xs md:text-lg  text-gray-800;
+}
+.showInstruction-p2 {
+  @apply font-Montserrat font-medium text-xs md:text-lg text-gray-800;
+}
+.showInstruction-span {
+  @apply font-extrabold text-sm md:text-xl;
+}
+.showInstruction-button {
+  @apply w-28 h-12 md:w-32 lg:w-40 lg:h-16 rounded-[18px] md:rounded-[20px] lg:rounded-[26px] bg-gray-800 text-blue-100 flex justify-center items-center font-extrabold text-lg lg:text-2xl;
+}
+.showInstruction-img {
+  @apply w-8 lg:w-16 h-10 lg:h-14 m-auto pb-4 max-md:pb-2;
+}
+.showInstruction-p3 {
+  @apply font-Montserrat font-normal text-[10px] md:text-sm text-center;
+}
+.showInstruction-div3-h2 {
+  @apply font-Montserrat font-bold text-sm md:text-lg lg:text-2xl text-gray-800 lg:pt-4;
+}
+.showInstruction-btn {
+  @apply w-3 h-3 rounded-full;
+}
+.getStart-card-div {
+  @apply flex-1 lg:px-6 lg:py-6 xl:px-8 xl:py-8 2xl:px-8 2xl:py-10 bg-get-start-gradient-center 2xl:rounded-[30px] lg:rounded-2xl  border border-accent-light-blue flex flex-col justify-between items-center 2xl:gap-10 lg:gap-4;
+}
+.getStart-card-sub-div {
+  @apply text-grey-2 lg:text-sm xl:text-xl 2xl:text-2xl font-bold leading-[28.80px] tracking-[-0.48px];
+}
+.dashboard-card-div {
+  @apply flex-1 min-w-[15.63rem] max-sm:h-[3.8rem] md:min-w-[48%] 2xl:min-h-[9.13rem] lg:min-h-[4.5rem] gap-1 p-4 md:p-6 lg:px-4 lg:py-2 2xl:p-6 lg:bg-grey-2 lg:bg-opacity-20 rounded-[15px] 2xl:rounded-[20px]  lg:rounded-[13px] flex justify-between items-center;
+}
+.dashboard-card-p {
+  @apply text-[#B5B5B5] md:text-gray-200 sm:text-[13px] md:text-base lg:text-[0.6rem]  2xl:text-[18px] font-semibold lg:font-medium lg:max-w-2xl;
+}
+.rounded-btn {
+  @apply 2xl:pl-8 2xl:pr-7  lg:pr-4 lg:pl-4 flex-1  py-2.5 lg:py-1.5 2xl:py-2.5 bg-accent-bright-green rounded-[30px] shadow-[0px_0px_10px_0px_rgba(103,234,179,0.60)] flex justify-start items-center gap-2 w-full sm:w-[20rem] md:w-[50vw] lg:w-full mx-auto;
+}
+.rounded-btn-span {
+  @apply text-2xl md:text-xl lg:text-lg  2xl:text-2xl;
+}
+.rounded-btn-p {
+  @apply 2xl:text-[21px] xl:text-lg lg:text-base text-xl  font-extrabold font-Montserrat flex-1 text-center capitalize;
+}
+/* .rounded-btn{
+  @apply  lg:pl-7  lg:pr-7 md:pl-7  md:pr-6 pl-5 pr-6  flex-1 bg-accent-bright-green  py-2.5 lg:py-3 rounded-[30px] shadow-[0px_0px_10px_0px_rgba(103,234,179,0.60)] flex justify-start items-center gap-2  md:w-[50vw]  lg:w-full mx-auto  sm:w-[20rem]
+}
+.rounded-btn-p{
+  @apply  2xl:text-2xl  xl:text-xl lg:text-lg md:text-[22px] max-md:text-2xl text-nowrap  font-extrabold font-['Montserrat'] flex-1 text-center  capitalize
+} */
+
+/* ---- --- */
+.level-1-quiz-rapidfire {
+  @apply text-grey-3 lg:text-grey-1 text-base md:text-lg lg:text-xl xl:text-2xl  2xl:text-[28px] leading-5 md:leading-none font-extrabold tracking-[-0.32px] md:tracking-[-1.12px];
+}
+.menubar-rapidfire {
+  @apply text-grey-2 text-base md:text-lg lg:text-lg xl:text-xl 2xl:text-[28px] font-extrabold tracking-[-0.32px] lg:tracking-[-1.12px];
+}
+.firecoins {
+  @apply flex items-center gap-2 text-cyan-950 xl:text-lg lg:text-sm 2xl:text-2xl font-extrabold font-Work_Sans 2xl:p-2 lg:p-[6px] p-2  bg-slate-300 rounded-[26px] leading-none;
+}
+.basecamp-text {
+  @apply text-emerald-300 lg:text-sm 2xl:text-lg font-semibold leading-snug;
+}
+/* ---- quiz cards ---  */
+.card-carousal-div {
+  @apply min-h-[calc(100vh-75px)] flex items-center justify-center;
+}
+.card-carousal-subdiv {
+  @apply relative 2xl:w-[25.5vw] 2xl:h-[80vh] xl:w-[25.5vw] xl:h-[80vh] lg:w-[22.229vw] lg:h-[78vh] transition-transform duration-500 ease-in-out;
+}
+/* .card-carousal-subdiv{
+  @apply relative 2xl:w-[489.6px] 2xl:h-[740px] xl:w-[439.2px] xl:h-[654.2px] lg:w-[414.72px] lg:h-[635px] transition-transform duration-500 ease-in-out
+} */
+.question-card-container {
+  @apply 2xl:h-[8.43rem] lg:h-[6rem] md:h-[7.8rem] h-[6.5rem] 2xl:px-12 2xl:py-6 xl:py-8 xl:px-9 lg:py-10 lg:px-10 p-6 md:p-8 flex items-center gap-5 rounded-[20px] shadow-[0_4px_4px_0px_#00000040];
+}
+.question-card-number-div {
+  @apply border border-grey-2 lg:border-none lg:p-[1px] rounded-[15px] lg:rounded-xl;
+}
+.question-card-number-subdiv {
+  @apply 2xl:min-w-[3.2rem] xl:min-w-[2.5rem] min-w-[2rem] lg:bg-cyan-950 text-grey-2 lg:text-grey-1 font-extrabold lg:font-black 2xl:text-2xl lg:text-sm text-base flex justify-center items-center rounded-xl aspect-square;
+}
+.question-card-heading {
+  @apply 2xl:text-[24.5px] xl:text-[1.1rem] lg:text-[15px] md:text-[24px] text-xl font-bold tracking-[-0.5px] lg:tracking-[-0.9px];
+}
+.question-card-subtitle {
+  @apply text-sm  italic lg:not-italic absolute inline tracking-[-0.48px];
+}
+.number-input {
+  @apply lg:w-[100%] 2xl:w-full 2xl:rounded-2xl lg:rounded-[10px] rounded-2xl input-border-none text-grey-1 lg:text-dark-blue  2xl:text-base lg:text-xs text-base lg:font-semibold font-medium  leading-3 bg-grey-3 bg-opacity-10 lg:bg-grey-1 lg:bg-opacity-100 focus:bg-grey-1 focus:text-dark-blue;
+}
+.number-input-height {
+  @apply 2xl:px-6 py-2 lg:px-3 px-4 2xl:h-[2.5rem] lg:h-[1.8rem] h-[2.6rem];
+}
+.number-input-div {
+  @apply 2xl:max-w-[11rem] xl:max-w-[9rem] lg:max-w-[8rem] max-w-[8.8rem];
+}
+.please-feild-text {
+  @apply italic pt-2 text-orange 2xl:text-sm lg:text-[10px] text-xs small-feild-text;
+}
+.or-text {
+  @apply text-center text-grey-3 lg:text-grey-2  2xl:text-2xl xl:text-xl text-lg  font-bold lg:font-extrabold leading-5;
+}
+.currencyfinder-1 {
+  @apply 2xl:text-xl lg:text-base md:text-lg text-sm;
+}
+.enter-details-p {
+  @apply text-[#8792A6] text-opacity-60 2xl:text-[11px] lg:text-[9px] text-[11px] font-medium font-Montserrat leading-[14.52px] lg:text-accent-bright-green lg:font-medium lg:tracking-normal italic;
+}
+.card-footer-w {
+  @apply w-full mx-auto max-w-[78%] md:max-w-[69%];
+}
+.card-input {
+  @apply w-full 2xl:w-full  rounded-2xl input-border-none text-grey-1 lg:text-dark-blue text-base  font-medium lg:font-semibold  leading-3 bg-grey-3 bg-opacity-10 lg:bg-grey-1 lg:bg-opacity-100 focus:bg-grey-1  focus:text-dark-blue;
+}
+.number-input-feild-h {
+  @apply py-2 2xl:py-2.5 lg:py-1.5  2xl:px-4 lg:px-3 px-2 mt-[2px];
+}
+.display-total-amount-div {
+  @apply 2xl:min-w-[11rem] xl:min-w-[9rem] lg:min-w-[8rem] min-w-[8.8rem] 2xl:px-6 lg:px-4 lg:border border-grey-4 2xl:rounded-2xl lg:rounded-[14px] rounded-2xl lg:text-grey-3 text-sm  lg:text-base 2xl:text-lg leading-3;
+}
+/* ---- quiz cards padding ----  */
+.cards-scroll {
+  @apply flex flex-col justify-between overflow-y-scroll;
+}
+.first-card-py {
+  @apply pt-9 pb-[26%] lg:pt-[25px] lg:pb-[22px] xl:pt-[1.25rem]  xl:pb-[2.5rem] 2xl:pt-[30px] 2xl:pb-[50px];
+}
+.fifth-card-py {
+  @apply 2xl:pt-[40px] 2xl:pb-[70px] lg:pt-[35px] lg:pb-[50px] pb-[70px] pt-[30px] gap-8;
+}
+.sixth-card-py {
+  @apply mx-8 lg:mx-auto 2xl:pt-[25px] 2xl:pb-[68px] lg:pt-[20px] lg:pb-[50px] md:pb-[6.2rem] pt-[15px] pb-[90px];
+}
+.select-goal-div {
+  @apply 2xl:max-w-[410px] xl:max-w-[370px] lg:max-w-[350px] max-w-[440px]  mx-auto;
+}
+.goals-footer {
+  @apply w-full flex flex-col gap-4 max-md:mb-6 items-center justify-between;
+}
+.goals-div {
+  @apply flex-1 flex flex-col  justify-between w-full 2xl:max-w-[23.8rem] xl:max-w-[21.8rem] lg:max-w-[20.8rem] md:max-w-[24rem] max-w-[84vw]  mx-auto;
+}
+.add-btn-hover {
+  @apply flex gap-1 justify-center mt-5 absolute 2xl:bottom-[8.5rem] 2xl:right-[9.8rem] xl:bottom-[6.8rem] xl:right-[8.6rem] lg:bottom-[7.1rem] lg:right-[7.8rem] bg-emerald-300 rounded-2xl;
+}
+.goal-list-hover {
+  @apply flex flex-col gap-1 justify-center items-start absolute 2xl:bottom-[10.4rem] xl:bottom-[8.2rem] lg:bottom-[8.6rem] right-8;
+}
+.check-card {
+  @apply flex h-11 w-72 md:h-[2.8rem] 2xl:h-[6rem] 2xl:max-w-[12.5rem] lg:h-[5rem] xl:max-w-[11rem] lg:max-w-[10.5rem] md:w-[24rem] items-center p-4 rounded-[15px] lg:rounded-[20px]  justify-between gap-2 cursor-pointer mx-auto;
+}
+/* ---- popup---- */
+.delete-div {
+  @apply inline-block  rounded-lg text-left overflow-hidden  transform transition-all sm:my-8 sm:align-middle sm:max-w-[29rem] md:max-w-[24rem] 2xl:max-w-[29rem] sm:w-full;
+}
+.delete-subdiv {
+  @apply bg-emerald-200 min-w-[20rem] max-md:min-w-fit  max-md:p-2  2xl:min-w-[28rem] px-6 py-6;
+}
+.delete-btn {
+  @apply py-3 px-8 md:px-10 2xl:px-14 border text-sm md:text-base lg:text-lg  xl:text-xl border-[#0F3A4D]  font-bold rounded-[30px];
+}
+.delete-text {
+  @apply font-Montserrat font-medium text-sm md:text-base text-blue-950 py-4 flex gap-2;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* .......................................................Global CLasses--------------------------------------------------------------------------- */
+/* -------------------------------------Congratulation Page---------------------------------------------------------------------------- */
+
+.congratulation_Card {
+  @apply 2xl:max-w-[70.875rem] xl:max-w-[55.62rem] lg:max-w-[50.625rem] md:max-w-[35.625rem]   w-full rounded-3xl;
+}
+.congratulation_subCard {
+  @apply xl:px-6 lg:px-5 px-4  xl:py-8 lg:py-7 py-6  rounded-[20px] text-center md:bg-grey-2 md:bg-opacity-20 animate-fade-in max-md:m-auto;
+}
+.card_heading {
+  @apply font-Montserrat font-extrabold   2xl:text-[28px] xl:text-2xl lg:text-xl md:text-lg  text-base text-slate-300 md:text-zinc-100;
+}
+.card_text {
+  @apply font-Montserrat font-semibold md:font-medium  2xl:text-xl xl:text-lg lg:text-base md:text-sm  text-sm;
+}
+.card_subHeading {
+  @apply 2xl:text-base lg:text-sm md:text-sm  text-xs font-normal md:font-semibold font-Montserrat  md:mt-3;
+}
+.card_button {
+  @apply md:text-slate-300 2xl:text-lg xl:text-sm lg:text-xs md:text-[10px]  font-normal  md:font-semibold font-['Montserrat']  xl:px-3 px-1 py-2 rounded-2xl shadow min-w-[8.56rem] xl:w-[14.03rem] lg:w-[11.03rem];
+}
+
+/* -------------------------------------------------------------------------resultChart---------------------------------------------------------------------- */
+.resultChartMain-container {
+  @apply max-md:w-full  2xl:max-w-[80.5rem] w-[calc(100vw-302px)] 2xl:mx-auto  mb-10;
+}
+.resultChart-container {
+  @apply flex items-end flex-1 mb-2 relative isolate overflow-hidden 2xl:min-w-[1288px] rounded-2xl h-[27rem] max-2xl:w-[calc(100vw-305px)];
+}
+
+/* -------------------------------------------------------------------------ResultLineGraph---------------------------------------------------------------------- */
+.ResultLine-main {
+  @apply md:mt-6;
+}
+.ResultLine-container {
+  @apply mt-[50px]  max-2xl:w-[calc(100vw-305px)] w-full   mx-auto;
+}
+
+/* -------------------------------------------------------------------------ResultCard---------------------------------------------------------------------- */
+.result_card {
+  @apply w-full max-[700px]:m-auto max-[500px]:p-5  max-lg:mx-auto 2xl:w-[24.375rem] xl:w-[22rem] lg:w-[17rem]  md:w-[18rem] sm:w-[25rem] max-md:w-[calc(100vw-64px)] h-[66px] lg:h-[9.375rem]  md:h-[8rem] px-6 md:px-3 py-3 md:py-6 lg:py-8 bg-cyan-200 rounded-[20px] md:flex-col justify-between items-center xl:gap-6 lg:gap-4 inline-flex  transition-all ease-in-out duration-300 relative;
+}
+.result-card-heading {
+  @apply flex-1 md:text-center  font-Montserrat font-semibold md:font-medium  2xl:text-lg lg:text-sm md:text-base sm:text-base text-sm md:uppercase leading-snug md:tracking-[-0.36px] tracking-[-0.7px];
+}
+.result-card-currencyicon {
+  @apply 2xl:text-5xl xl:text-4xl lg:text-3xl  max-md:text-2xl scale-75 self-center;
+}
+.result-card-currencyValue {
+  @apply flex-1 text-center 2xl:text-5xl xl:text-5xl lg:text-3xl  md:text-4xl text-2xl font-extrabold tracking-[-0.96px] font-Work_Sans gap-3;
+}
+.result-card-currencySubValue {
+  @apply 2xl:text-xl xl:text-lg md:text-base text-xs italic md:not-italic font-normal md:font-semibold font-Work_Sans self-end max-md:pb-1;
+}
+.ResultFinancialCard {
+  @apply xl:max-w-[390px] xl:max-h-[10.5rem] lg:max-w-[310px] lg:max-h-[9.5rem] md:w-[340px] md:max-h-[8.5rem];
+}
+
+.summaryInformation-subValueTitle {
+  @apply text-center text-grey-3 lg:text-lg md:text-base text-sm  font-semibold;
+}
+.summaryInformation-subValue {
+  @apply text-center text-grey-3 2xl:text-3xl xl:text-2xl lg:text-lg md:text-base font-semibold font-Work_Sans;
+}
+/* ------------------------------------------------------------------------level1_quize_result----------------------------------------------------------------------------------- */
+.level1-quize-container {
+  @apply 2xl:max-w-[78.75rem]  md:w-[calc(100vw-130px)]  mx-auto flex flex-col max-md:gap-12 justify-center items-center  max-[1299px]:mx-3 max-lg:mx-auto max-sm:mx-2;
+}
+.money_matter {
+  @apply text-white 2xl:text-[32px] xl:text-3xl lg:text-2xl md:text-3xl text-lg font-black font-['Montserrat'] leading-none;
+}
+.level1-btn {
+  @apply w-[60%] md:w-[300px] lg:w-[200px] lg:p-3 p-2 bg-gray-200 bg-opacity-20 rounded-[15px] text-center text-gray-200 lg:text-lg text-base font-semibold font-Montserrat;
+}
+.level1-card {
+  @apply w-full max-md:hidden lg:flex xl:gap-12 lg:gap-5 2xl:self-end max-2xl:self-center  max-xl:mx-2;
+}
+.level1-card-contain {
+  @apply flex-[2]  md:flex flex-wrap 2xl:gap-7 max-slg:gap-2 max-lg:gap-5 gap-2  2xl:justify-end md:mt-10  max-2xl:justify-center;
+}
+.level1-progressMeter {
+  @apply flex-[1] flex flex-col justify-between gap-3 lg:max-w-[400px] max-w-[20.625rem]  max-md:mx-auto;
+}
+
+/* -------------------------------------------------------------------------------FilterBtn-----------------------------------------------------------------------------------------------  */
+.filter-btn {
+  @apply lg:h-14 md:h-[3.1rem]  h-12 sm:w-[20rem]  w-full md:w-auto md:aspect-square flex max-md:gap-2 items-center justify-center rounded-full md:rounded-2xl border;
+}
+
+/* --------------------------------------------------------------------------------MyPower btn--------------------------------------------------------------------------------------------- */
+.Mypower-btn {
+  @apply w-full 2xl:w-[25.187rem] xl:w-[24.187rem] lg:w-[24rem] md:w-[24.125rem]  h-10 md:h-[60px] px-8 py-6 lg:py-3 bg-gradient-to-l from-red-500 to-amber-300 rounded-[30px] md:rounded-[15px] justify-start items-center gap-2 inline-flex;
+}
+/* ====================================================================================MyPower ===========================================================================================================================================================*/
+/* -------InsightsSection------- */
+.InsightsSection-Container {
+  @apply w-full 2xl:max-w-[1288px] max-2xl:w-[90%] max-xl:ms-[75px] max-xl:me-1 xl:mx-auto max-md:mx-auto flex lg:gap-16 md:gap-10  max-md:gap-5 flex-col mt-12 pb-8 max-md:mb-10;
+}
+
+/* ----------------------------------------------------------------------------------InsidesCard------------------------------------------------------------------------------------------------------------------ */
+
+.insides-heading {
+  @apply text-center text-white 2xl:text-[32px] xl:text-[31px] lg:text-3xl md:text-2xl  font-black font-Montserrat max-md:hidden md:block;
+}
+.currencyfinder {
+  @apply text-white  2xl:text-4xl xl:text-[33px] lg:text-3xl md:text-[28px]  text-2xl flex items-center justify-center font-extrabold md:font-semibold text-center font-Work_Sans;
+}
+.textFontextrabold {
+  @apply 2xl:text-4xl  xl:text-[33px] lg:text-3xl md:text-[28px] text-2xl font-extrabold md:font-semibold text-center font-Work_Sans;
+}
+.finacialCardHeading {
+  @apply text-grey-3  2xl:text-lg  text-base  font-semibold font-Montserrat max-md:text-start;
+}
+.finacialCardSubHeading {
+  @apply text-center text-grey-3 md:text-lg text-base font-medium font-Work_Sans;
+}
+/* ----------------------------------------------------------------------------------------ProgressBar-------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------InsightesCharts------------------------------------------------------------------------------------------------------------------------ */
+.inshightes-container {
+  @apply min-[1024px]:flex  flex-wrap lg:flex-nowrap rounded-[30px] items-center 2xl:h-[37.25rem] xl:h-[36rem] lg:h-[36rem] relative md:bg-gray-300 md:bg-opacity-20 overflow-hidden max-md:gap-9;
+}
+.inshightes-heading {
+  @apply text-center text-white 2xl:text-[32px] lg:text-[31px] md:text-3xl text-2xl  font-black font-['Montserrat'] md:absolute top-9 left-12;
+}
+.inshightes-Circuler {
+  @apply md:flex flex-wrap lg:flex-nowrap mt-12 md:mt-[100px] md:mx-auto;
+}
+.inshightes-vertical {
+  @apply lg:flex-1 items-center flex-col flex h-full max-md:h-[425px] rounded-[30px] max-md:w-[288px] max-md:m-auto relative max-md:mt-9 max-lg:mt-12 pb-12 lg:pb-0 max-md:py-14;
+}
+.inshightesVerticleProgress {
+  @apply flex items-center justify-center gap-28 max-md:gap-24 md:mt-[50px];
+}
+.inshightes-average {
+  @apply md:absolute bottom-[-60px] md:bottom-[35rem] lg:bottom-[14px] text-lg  font-semibold  md:font-medium font-Montserrat text-grey-3 w-[65%] md:w-full text-center mt-4 md:mt-0;
+}
+
+/* ---------------------------------------------------------------------------------------------inshighteslinechart--------------------------------------------------------------------------------------------------------------------------------------------- */
+.inshighteslinechart {
+  @apply text-white text-center 2xl:text-[32px] xl:text-3xl lg:text-2xl md:text-xl font-black font-['Montserrat'] hidden md:block;
+}
+.EyeIconButton-container {
+  @apply 2xl:px-8 xl:py-3 md:py-2 rounded-[30px] shadow border border-blue-200 flex justify-center items-center relative;
+}
+.EyeIconButton-text {
+  @apply 2xl:text-2xl xl:text-xl lg:text-lg md:text-sm  font-bold font-Montserrat max-lg:pt-1;
+}
+.EyeIconButton-img {
+  @apply lg:w-6 lg:h-6 md:w-5 md:h-5 absolute xl:right-7   lg:right-6 min-[893px]:right-5 md:right-2;
+}
+/* ----------------------------------------------------------------------------------------------------MoneyMatterSection--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.MoneyMatterSection-container {
+  @apply lg:max-w-[80.5rem] md:w-[95%]  mx-auto lg:flex pb-[9px] self-end mt-10  max-md:mb-10 2xl:gap-7;
+}
+.MoneyMatterSection-subContainer {
+  @apply flex-[2] flex flex-wrap 2xl:gap-7 lg:gap-12  max-lg:gap-16 max-slg:gap-10  max-md:gap-2 2xl:justify-end max-2xl:justify-center  max-md:w-[280px] max-md:m-auto max-md:pb-9;
+}
+.MoneyMatterSection-progressmeter {
+  @apply flex-[1] flex flex-col justify-between max-md:items-center gap-6 max-w-[25rem] max-lg:m-auto max-lg:pt-5;
+}
+.ProgressMeter_Container {
+  @apply flex-1 flex items-center justify-center max-md:justify-between md:rounded-[30px] max-md:rounded-2xl max-md:w-[280px] max-md:h-[162px] max-md:pb-5 max-md:border-[1px];
+}
+
+/* -----------------------------------------------------------------------------------------------------FinancialFreedomCard----------------------------------------------------------------------------------------------------------------------------------- */
+.FinancialFreedomCard-container {
+  @apply max-lg:w-[291px] lg:mx-auto lg:w-[403px] max-md:w-[288px] max-md:h-[170px] md:h-[205px] shadow flex-col rounded-[20px] bg-opacity-20 bg-gray-200;
+}
+.FinancialFreedomCard-heading {
+  @apply text-center text-[#0F3A4D]  xl:text-lg  md:text-base text-sm font-semibold font-Montserrat md:uppercase;
+}
+/* -----------------------------------------------------------------------------------------------------MyRewards---------------------------------------------------------------------------------------------------------------------------------------------- */
+.MyRewards-Container {
+  @apply 2xl:w-[78.75rem]  xl:w-[70.75rem] lg:w-[50.125rem] md:w-[34.75rem] sm:w-[34.5rem]  w-[20rem];
+}
+.MyRewards-Heading {
+  @apply text-center bg-[#B7C3D8] p-[10px]  rounded-[16px]  xl:text-4xl lg:text-3xl md:text-2xl max-md:text-2xl font-black font-Montserrat max-md:mx-3;
+}
+.MyRewards-ProgressbarContainer {
+  @apply flex flex-wrap xl:px-24 lg:pr-4 lg:pl-0  md:px-16  px-4  xl:py-9 lg:py-8 md:py-7 py-6 bg-gray-700 rounded-[30px] max-md:justify-around mt-10;
+}
+.MyRewards-TotalCoins {
+  @apply text-3xl font-Work_Sans w-[9rem] h-[4rem] font-extrabold text-dark-blue bg-[#B7C3D8] rounded-[26px] flex items-center justify-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+.MyRewards-SubHeading {
+  @apply font-Montserrat  xl:text-[32px]  lg:text-3xl text-xl font-black text-[#FFFFFF];
+}
+.MyRewards-text {
+  @apply font-Montserrat text-base max-md:text-sm font-semibold text-[#FFFFFF] mb-4  text-center md:text-start;
+}
+.Redeem-btn {
+  @apply flex justify-center items-center xl:gap-14 lg:gap-12 md:gap-10 gap-5  bg-[#67EAB3] w-full md:px-10 py-3 rounded-[30px] font-Montserrat md:text-2xl text-xl font-extrabold text-[#0F3A4D];
+}
+/*-------------------------------------------------------------------------------------------------------EarnRewards----------------------------------------------------------------------------------------------------------------------------------------------  */
+.Earn-icon {
+  @apply m-auto mb-8 2xl:w-[72px] 2xl:h-[72px] max-2xl:w-[40px] max-2xl:h-[40px] max-md:w-12 max-md:h-12  mt-6 md:mt-0;
+}
+.Earn-reward {
+  @apply font-Work_Sans lg:text-2xl md:text-xl   font-extrabold text-[#0F3A4D] bg-[#B7C3D8]  md:px-7 md:py-1  rounded-[26px] flex justify-center items-center mb-4;
+}
+.Earn-heading {
+  @apply text-center font-Montserrat text-2xl   max-md:text-lg  font-extrabold text-white  md:max-w-32 m-auto;
+}
+.Earn-subheading {
+  @apply text-center m-auto font-Montserrat text-sm font-normal text-white  max-w-40;
+}
+.Earnreward-subheading {
+  @apply text-center m-auto font-Montserrat text-lg max-md:text-base font-semibold text-white  max-w-28;
+}
+
+/* ------------------------------------------------------------------------------------------------------Summit------------------------------------------------------------------------------------------------------------------------------------------------ */
+.Whatif-Container-main {
+  @apply flex relative isolate  bg-blue-grey  rounded-3xl max-2xl:w-[85%] max-2xl:mx-auto;
+}
+.Whatif-Container {
+  @apply flex flex-col max-2xl:w-[95%] mx-auto py-10;
+}
+.Whatif-Heading-container {
+  @apply xl:w-[32.438rem] lg:w-[28rem] md:w-[20rem] h-[95px] lg:py-6 max-lg:py-4 lg:px-9 max-lg:px-6  border-[1px]  rounded-xl border-desk-light-blue-2 mb-2;
+}
+.Whatif-Heading {
+  @apply font-extrabold xl:text-[28px] lg:text-[26px] md:text-2xl text-lg  text-desk-light-blue-2 font-Montserrat;
+}
+.Whatif-questions-container {
+  @apply xl:w-[32.438rem] lg:w-[28rem] md:w-[20rem]  h-[80px]  pt-2.5 px-9  rounded-xl mb-2;
+}
+.Whatif-questions-Heading {
+  @apply font-extrabold xl:text-2xl lg:text-xl md:text-base text-desk-light-blue-2 font-Montserrat;
+}
+.Whatif-questions-details {
+  @apply font-medium text-desk-light-blue-2 lg:text-base md:text-sm font-Montserrat;
+}
+.Whatif-cases-container {
+  @apply border-[1px] h-[100px] rounded-xl relative w-[230px] bg-blue-grey flex items-center p-4 gap-2;
+}
+.Whatif-delete-icon {
+  @apply absolute top-[1px] right-[-6px] z-10 cursor-pointer w-8 h-8 p-[4px] flex items-start justify-center rounded-full;
+}
+.Whatif-Edit-btn {
+  @apply py-2 px-4 rounded-[26px] font-medium text-base font-Montserrat;
+}
+.Whatif-case-heading {
+  @apply font-extrabold xl:text-2xl lg:text-xl md:text-lg font-Montserrat;
+}
+
+/* ========================================================================================================MyAccount Page======================================================================================================================================== */
+.Myaccount-Container {
+  @apply 2xl:w-[74.563rem]  xl:w-[70rem]   min-[1173px]:w-[65rem] lg:w-[56rem] md:w-[41rem]  overflow-y-scroll scrollbar-hide mt-5;
+}
+.Myaccount-Tabs {
+  @apply py-2 lg:py-4 xl:w-[16.06rem] lg:w-[11.375rem] md:w-[10rem] w-[120px]  px-2 lg:px-4 mb-2 font-bold  xl:text-2xl lg:text-xl text-base md:rounded-[15px] rounded-t-[10px];
+}
+/* -----------------------------------------------------------------------------------------------------MyAccountHead--------------------------------------------------------------------------------------------------------------------------------------------- */
+.MyAccountHead {
+  @apply text-white 2xl:text-[32px] xl:text-3xl lg:text-2xl md:text-[22px] max-md:text-xl max-md:text-center font-black font-Montserrat;
+}
+
+/* -----------------------------------------------------------------------------------------------------MyAccountCards--------------------------------------------------------------------------------------------------------------------------------------------- */
+.myAccountcards-container {
+  @apply p-9  max-md:p-5  max-md:w-[310px] max-md:m-auto rounded-[30px] max-md:rounded-3xl bg-gradient-to-b from-gray-800 to-gray-800 overflow-y-auto scrollbar-hide;
+}
+
+.PersonalDetails_Container {
+  @apply flex flex-wrap xl:gap-x-[60px] xl:gap-y-[45px] lg:gap-x-[40px] lg:gap-y-[35px] md:gap-x-[8px] md:gap-y-[25px] max-md:gap-4 max-lg:order-2 max-lg:justify-evenly max-md:justify-center;
+}
+
+.MyAccountInput-label {
+  @apply text-gray-200 xl:text-xl  lg:text-lg md:text-base max-md:text-sm font-medium font-Montserrat leading-relaxed;
+}
+.MyAccount-Input {
+  @apply xl:w-[360px] min-[1173px]:w-[20.75rem] lg:w-[16rem] md:w-[18rem] max-md:w-full px-4 py-4 max-md:py-2 bg-zinc-100 rounded-[15px] shadow-inner border border-white text-cyan-950 text-xl max-md:text-sm font-normal font-Work_Sans capitalize leading-none;
+}
+.MyAccountSelect {
+  @apply flex items-center xl:w-[360px] min-[1173px]:w-[20.75rem] lg:w-[16rem] md:w-[18rem] max-md:w-[17rem]   h-12 max-md:h-10  px-5 py-7 max-md:py-2 bg-gray-200 bg-opacity-20 rounded-[15px] shadow gap-2;
+}
+.PersonalDetailsImage-container {
+  @apply flex flex-col gap-4 lg:mt-8 max-lg:order-1  max-md:justify-center max-lg:items-center;
+}
+.PersonalDetails-Image {
+  @apply w-[237px] h-[237px] max-md:w-[120px] max-md:h-[120px] rounded-full border-4 border-emerald-300 bg-white max-md:m-auto;
+}
+.ChangeProfile-btn {
+  @apply py-2 max-lg:px-12 bg-gray-200 bg-opacity-80 rounded-[15px] text-center text-cyan-950 text-lg max-md:text-sm max-md:w-fit max-md:px-12 max-md:mb-3 font-semibold font-["Montserrat"] leading-snug max-md:m-auto;
+}
+
+/* ---------------------------------------------------------------------------------------------------------Subscripation Page------------------------------------------------------------------------------------------------------------------------------------------ */
+.Subscripation-container {
+  @apply flex flex-wrap md:flex-nowrap max-lg:flex-col gap-x-9 2xl:w-[74.563rem]  xl:w-[70rem]   min-[1173px]:w-[65rem] lg:w-[56rem] md:w-[35rem] max-md:w-[85%] m-auto gap-y-12 mt-[52px] max-md:mt-[30px] opacity-45;
+}
+.PlainDetails-container {
+  @apply flex flex-wrap gap-12 max-lg:gap-28 mt-12 max-md:mt-7 max-md:gap-5;
+}
+.Progressstepper-container {
+  @apply xl:w-[176px] lg:w-[174px] md:w-[160px] max-lg:mt-[8px] max-md:w-[150px] h-[38px] px-3 py-2  rounded-[15px] flex justify-center items-center gap-2.5;
+}
+.Basecamp {
+  @apply text-accent-green xl:text-lg lg:text-base max-md:text-sm font-semibold leading-snug;
+}
+.member-year {
+  @apply text-gray-200 xl:text-[28px] lg:text-2xl  md:text-[26px] max-lg:mt-[8px] max-md:text-xl font-extrabold font-Montserrat;
+}
+.upgradeSummit-btn {
+  @apply flex items-center xl:gap-4 lg:gap-3 md:gap-5 max-md:gap-2 px-8 max-md:px-2 py-3 max-md:py-2 bg-emerald-300 rounded-[30px] shadow xl:w-full  max-lg:w-full   lg:mt-12 max-md:mt-5  text-cyan-950 xl:text-2xl lg:text-xl md:text-xl max-md:text-lg font-extrabold font-Montserrat capitalize max-lg:mt-12;
+}
+
+.Benefits-image {
+  @apply xl:w-[150px] xl:h-[150px] lg:w-[120px] lg:h-[120px]  md:w-[130px] md:h-[130px] max-md:w-[90px] max-md:h-[90px] bg-zinc-300 rounded-full max-xl:m-auto;
+}
+.Benefits-text {
+  @apply text-center mt-[27px] max-md:my-5 text-gray-200 xl:text-lg lg:text-base md:text-sm max-md:text-xs font-semibold font-["Montserrat"] leading-snug w-[150px] max-md:w-[100px];
+}
+.Payment-container {
+  @apply xl:p-6 lg:p-5 md:p-4 max-md:p-6 bg-gray-200 bg-opacity-20 rounded-[15px] shadow flex items-center gap-4 max-md:mt-1;
+}
+.visacard {
+  @apply max-xl:w-[6rem] max-md:w-28;
+}
+.account-number {
+  @apply text-gray-200 xl:text-2xl lg:text-xl md:text-2xl max-md:text-sm font-black font-Montserrat;
+}
+
+/* ------------------------------------------------------------------------------------------------------MyAccountDatePicker------------------------------------------------------------------------------------------------------------------------------------------- */
+.MyAccountDatePicker-conatiner {
+  @apply flex items-center justify-start flex-col xl:w-[22rem]   min-[1173px]:w-[20.75rem] lg:w-[16rem] md:w-[18rem] max-md:w-full text-lg;
+}
+.MyAccountDatePicker-label {
+  @apply text-gray-200  xl:text-xl  lg:text-lg md:text-base max-md:text-sm xl:w-[22rem]  min-[1173px]:w-[20.75rem] lg:w-[16rem] md:w-[18rem] font-medium font-["Montserrat"] leading-relaxed;
+}
+/* ----------------------------------------------------------------------------------------------------Security------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.security-container {
+  @apply flex gap-9 mt-[52px] max-lg:flex-col;
+}
+
+/* ======================================================================================================Range Cards======================================================================================================================================================== */
+/* ------------------------------------------------------------------------------------------------------Cards container-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.cardContainer-children {
+  @apply flex flex-wrap max-lg:flex-col justify-between gap-6 2xl:w-full max-2xl:w-[85%]  max-lg:w-[70%]  max-xl:m-auto max-xl:gap-2;
+}
+/* ------------------------------------------------------------------------------------------------------Rates Cards-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.rates-container {
+  @apply flex flex-wrap xl:gap-6 items-center justify-between  lg:gap-4 md:gap-6;
+}
+.rates-heading {
+  @apply text-grey-3 max-md:text-sm xl:text-base lg:text-[0.7rem] md:text-[13px] font-normal font-Montserrat;
+}
+.rates-rangeInput {
+  @apply order-2 max-md:order-3  md:ml-auto 2xl:min-w-48 xl:min-w-32 lg:min-w-24 md:min-w-36  max-md:w-full;
+}
+.rates-Input {
+  @apply flex gap-1 bg-zinc-300 bg-opacity-10 max-md:gap-0 py-1 px-2 max-md:px-2 max-md:py-2 order-3 max-md:order-2 items-center  xl:w-[70px] lg:w-[52px]  w-[70px] font-medium max-md:font-semibold xl:rounded-2xl lg:rounded-xl md:rounded-2xl max-md:rounded-3xl xl:text-lg lg:text-xs md:text-lg max-md:text-sm focus:outline-none;
+}
+/* ------------------------------------------------------------------------------------------------------assumpation Cards-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.assumpation-input-border {
+  @apply order-2  border  border-slate-400  py-1 px-2 max-md:px-2 max-md:py-2 rounded-[15px]  max-md:rounded-2xl font-medium max-md:font-semibold font-Work_Sans xl:w-[70px] lg:w-[52px]  w-[70px] xl:text-lg lg:text-xs md:text-lg max-md:text-sm  bg-transparent focus:outline-none focus:ring-1  bg-zinc-300 bg-opacity-10 text-center;
+}
+.assumpation-input-age {
+  @apply disabled:opacity-45 p-2 lg:p-1 md:py-[9px] md:px-4  rounded-2xl font-medium md:font-semibold font-Work_Sans xl:w-[60px] lg:w-[52px] w-[60px] leading-none xl:text-lg lg:text-xs md:text-lg max-md:text-sm input-border-none bg-transparent text-center;
+}
+/* ------------------------------------------------------------------------------------------------------MoneyIn Cards-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.moneyInRange-Input {
+  @apply 2xl:min-w-[208px] max-2xl:min-w-[130px] max-lg:min-w-[200px];
+}
+.moneyIn-text {
+  @apply text-start relative text-grey-3 max-md:text-sm xl:text-base lg:text-[0.7rem] md:text-[13px] font-normal font-Montserrat;
+}
+.moneyInText-container {
+  @apply xl:max-w-[100px] max-xl:max-w-[62px] max-lg:max-w-[100px];
+}
+.moneyIn-Value {
+  @apply flex items-center items-center gap-1 bg-grey-4 xl:w-[139px] lg:w-[100px]  md:w-[130px] w-[200px] py-1 px-2 border text-aqua border-aqua rounded-2xl font-normal font-Work_Sans input-border-none;
+}
+.moneyIn-ValueIcon {
+  @apply font-normal font-Work_Sans xl:text-lg max-xl:text-base max-lg:text-lg;
+}
+.moneyIn-Value-text {
+  @apply w-full font-semibold xl:text-lg max-xl:text-base max-lg:text-lg font-Work_Sans input-border-none bg-transparent;
+}
+.moneyIn-container {
+  @apply lg:gap-6 max-lg:gap-3 items-center justify-center;
+}
+/* ------------------------------------------------------------------------------------------------------MoneyOut Cards-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.moneyOutRange-Input {
+  @apply 2xl:min-w-[150px] lg:max-w-[110px] md:w-[200px];
+}
+.DetailedViewRender-container {
+  @apply flex 2xl:flex-wrap gap-3 2xl:gap-6 items-center;
+}
+.DetailedViewRender-TextContainer {
+  @apply xl:max-w-[140px] max-xl:max-w-[121px] max-lg:max-w-[100px] max-md:max-w-[200px] order-1;
+}
+
+/* ------------------------------------------------------------------------------------------------------MyPowerSidebar-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.collapse-container {
+  @apply 2xl:h-[42px] max-2xl:h-[40px] rounded-[15px] justify-start items-center gap-2.5 inline-flex cursor-pointer overflow-hidden transition-all duration-500;
+}
+.collapse-text {
+  @apply tracking-[-0.36px] text-grey-1 2xl:text-lg  max-2xl:text-base font-medium  leading-snug;
+}
+.mySidebartop-button {
+  @apply text-left 2xl:h-[42px] max-2xl:h-[40px]  rounded-[15px] cursor-pointer hover:bg-grey-0 hover:bg-opacity-10 overflow-hidden transition-all duration-500;
+}
+.mySidebartop-Mytext {
+  @apply 2xl:text-sm max-2xl:text-xs font-light  leading-[18.48px] font-Montserrat;
+}
+.mySidebartop-text {
+  @apply 2xl:text-lg lg:text-sm md:text-sm font-medium  leading-snug items-center font-Montserrat;
+}
+.Freedom_GraphText {
+  @apply text-zinc-400 text-xs font-normal italic tracking-[-0.48px] mb-2 2xl:mt-5 max-2xl:mt-0 pl-2.5;
+}
+.MyPower-container {
+  @apply w-full 2xl:h-[60px] max-2xl:h-[40px] px-8 py-3 justify-start items-center gap-2 inline-flex;
+}
+.mypower-mytext {
+  @apply 2xl:text-lg max-2xl:text-base font-semibold leading-snug;
+}
+.mypower-myPower {
+  @apply 2xl:text-xl max-xl:text-lg max-lg:text-base font-extrabold capitalize;
+}
+/* ------------------------------------------------------------------------------------------------------MyAccountSidebar-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.MyAccountSidebar-container {
+  @apply h-[calc(100vh-60px)] 2xl:justify-between xl:gap-12  bg-[#435066]  flex flex-col  max-md:fixed max-md:top-0 justify-between;
+}
+.Myaccount-Username {
+  @apply 2xl:text-2xl max-2xl:text-lg max-lg:text-lg max-md:text-lg font-bold text-[#EFEFEF] text-center border-b-2 border-slate-500 pb-1 max-2xl:mb-2;
+}
+.Myaccount-menu {
+  @apply w-full flex justify-between items-center 2xl:my-5  max-md:my-2 p-2 rounded-xl 2xl:text-lg max-2xl:text-sm max-lg:text-sm max-md:text-sm font-extrabold text-[#EFEFEF] hover:text-[#0F3A4D] hover:bg-[#8792A6];
+}
+.myaccountsidebar-icon {
+  @apply 2xl:text-2xl max-2xl:text-xl max-lg:text-lg max-md:text-xl w-5 h-5;
+}
+.myAccountSidebar-image {
+  @apply mx-auto rounded-full border-4 border-accent-green border-solid 2xl:w-20  2xl:h-20 max-2xl:w-16 max-2xl:h-16;
+}
+/* ------------------------------------------------------------------------------------------------------ModeSwitch-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Modeswitch {
+  @apply 2xl:h-[36px] max-2xl:h-[30px] mx-auto mt-6 bg-[#B5B5B5] rounded-3xl  flex justify-between items-center  border-[1px] border-[#c2d7fa] opacity-45;
+}
+.modeSwitchlight {
+  @apply rounded-3xl 2xl:text-xs max-2xl:text-[10px] max-md:text-[10px] font-semibold text-[#c2d7fa] bg-[#384151]  border-[1px] border-[#c2d7fa];
+}
+.modeSwitchdark {
+  @apply rounded-none 2xl:text-xs max-2xl:text-[10px]  max-md:text-[9px] font-normal text-[#c2d7fa]  py-0 pl-4 border-[none];
+}
+/* ------------------------------------------------------------------------------------------------------MyPowerSidebar-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.myPowerSidebar-Container {
+  @apply pt-2.5 h-[calc(100vh-64px)] flex flex-col  transition-all  2xl:gap-[1rem];
+}
+/* ------------------------------------------------------------------------------------------------------whatYouOwn-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.whatyouOwn-text {
+  @apply w-full md:w-auto leading-[40px] md:leading-4 relative font-medium font-Montserrat xl:text-base max-xl:text-sm;
+}
+.whatyouown-input {
+  @apply flex items-center gap-0.5 text-lg px-2 h-9 md:h-auto w-full xl:max-w-[168px] max-xl:max-w-[130px] max-lg:max-w-[168px] border rounded-2xl border-desk-light-blue-2 text-desk-light-blue-2;
+}
+/* ------------------------------------------------------------------------------------------------------MoneyDoFor-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.MoneyDoFor-Heading {
+  @apply lg:text-2xl text-lg md:text-xl   text-start md:text-center flex max-md:items-start items-center gap-1;
+}
+/* ------------------------------------------------------------------------------------------------------MoneyDoFor-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.login-singup-heading {
+  @apply text-white font-black 2xl:text-4xl lg:text-3xl leading-tight font-Montserrat text-center tracking-tight;
+}

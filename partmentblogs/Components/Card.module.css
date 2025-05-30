@@ -1,0 +1,87 @@
+.card {
+  width: 45%;
+  height: auto;
+  border: none;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 2.8rem;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.txtDecoration {
+  text-decoration: none;
+}
+
+.authorInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.profilePhoto {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.authorDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.authorName {
+  font-size: 16px;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.date {
+  font-size: 16px;
+  color: #00326d;
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+.someText {
+  font-size: 16px;
+  color: #00326d;
+  margin-top: 4px;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 12px 44px;
+  background-color: #3d5bf1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}

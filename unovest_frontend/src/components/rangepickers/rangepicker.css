@@ -1,0 +1,100 @@
+.progress {
+    background: linear-gradient(to right, #82CFD0 0%, #82CFD0 40%, #fff 40%, #fff 100%);
+    /* border: solid 2px #82CFD0; */
+    border-radius: 8px;
+    height: 7px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.progress::-webkit-slider-thumb,
+.progress::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: #0F3A4D;
+    border: 4px solid #BCFBE4;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+
+    .progress::-webkit-slider-thumb,
+    .progress::-moz-range-thumb {
+        width: 10px !important;
+        height: 10px !important;
+    }
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar, ::-ms-scrollbar {
+    width: 8px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #B4DAF6;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    /* background-color: transparent; */
+    background: radial-gradient(1323.55% 390.21% at 116.51% 142.46%, #9891AD 0%, #538096 22.18%, #3C566E 37.68%, #131529 94.3%);
+}
+* {
+    /* scrollbar-width: thin; */
+    scrollbar-color: #BCFBE4 radial-gradient(1323.55% 390.21% at 116.51% 142.46%, #9891AD 0%, #538096 22.18%, #3C566E 37.68%, #131529 94.3%);;
+}
+::-ms-thumb {
+    background-color: #B4DAF6;
+    border-radius: 6px;
+}
+
+::-ms-track {
+    /* background-color: transparent; */
+    border-radius: 2px;
+    background: radial-gradient(1323.55% 390.21% at 116.51% 142.46%, #9891AD 0%, #538096 22.18%, #3C566E 37.68%, #131529 94.3%);
+}
+
+
+/* input[type="range"] {
+    -webkit-appearance: none;
+    height: 7px;
+    background: grey;
+    border-radius: 5px;
+    background-image: linear-gradient(#d46a6a, #d46a6a);
+    background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #d46a6a;
+    cursor: pointer;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background 0.3s ease-in-out;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    box-shadow: #d46a6a50 0px 0px 0px 8px;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+    box-shadow: #d46a6a50 0px 0px 0px 11px;
+    transition: box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        left 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        bottom 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+} */
